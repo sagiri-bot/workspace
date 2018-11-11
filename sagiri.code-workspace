@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "worker"
+		},
+		{
+			"path": "sharder"
+		},
+		{
+			"path": "cache"
+		},
+        {
+            "path": "library"
+        },
+        {
+            "path": "sagiri.party"
+        }
+	],
+	"settings": {},
+	"launch": {
+		"configurations": [],
+		"compounds": [
+			{
+				"name": "Launch worker, sharder & cache",
+				"configurations": [
+					"Launch Sharder",
+                    "Launch Worker",
+                    "Launch Cache"
+				]
+			}
+		]
+	}
+}

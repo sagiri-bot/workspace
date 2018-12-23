@@ -7,10 +7,10 @@
 			"path": "sharder"
 		},
 		{
-			"path": "cache"
+			"path": "masamune"
 		},
         {
-            "path": "library"
+            "path": "elf"
         },
         {
             "path": "sagiri.party"
@@ -21,11 +21,10 @@
 		"configurations": [],
 		"compounds": [
 			{
-				"name": "Launch worker, sharder & cache",
+				"name": "Launch worker & sharder",
 				"configurations": [
 					"Launch Sharder",
-                    "Launch Worker",
-                    "Launch Cache"
+                    "Launch Worker"
 				]
 			}
 		]
